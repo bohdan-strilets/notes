@@ -3,10 +3,10 @@ import deleteFormTemplate from '../templates/delete-form-template.hbs';
 import editFormTemplate from '../templates/edit-form-template.hbs';
 import noteItemTemplate from '../templates/note-item-template.hbs';
 import * as basicLightbox from 'basiclightbox';
+import 'basiclightbox/dist/basicLightbox.min.css';
 import randomColor from 'randomcolor';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { v4 as uuidv4 } from 'uuid';
-import 'basicLightbox/dist/basicLightbox.min.css';
 
 const { listNotes, addNewNoteBtn, sectionValue } = {
   listNotes: document.querySelector('.notes'),

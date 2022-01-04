@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+
+  background: #ffe000;
+  background: linear-gradient(to right, #799f0c, #ffe000);
+
+  text-align: center;
+}
+
+.header__link {
+  display: block;
+  margin-bottom: 15px;
+
+  font-size: 30px;
+  color: #000000;
+
+  transition: color 300ms linear;
+
+  &:hover,
+  &:focus {
+    color: #cccccc;
+  }
+}
+
+.header__icon {
+  fill: currentColor;
+}
+
+// .header__title {}
+
+.header__description {
+  font-size: 25px;
+}
+
+.header__button {
+  @extend %button;
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 75px;
+  height: 75px;
+
+  border: 10px solid #ffffff;
+  border-radius: 1px;
+}

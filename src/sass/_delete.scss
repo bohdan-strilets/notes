@@ -1,0 +1,19 @@
+.delete {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.delete__item {
+}
+
+.delete__button {
+  @extend %button;
+
+  width: 250px;
+  height: 40px;
+  border: none;
+
+  &--yes {
+    background-color: #f5b5b5;
+  }
+}

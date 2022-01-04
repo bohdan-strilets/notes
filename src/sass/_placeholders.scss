@@ -1,0 +1,13 @@
+%button {
+  background-color: #f5f5f5;
+  color: #000000;
+  cursor: pointer;
+
+  transition: background-color 300ms linear, color 300ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: #000000;
+    color: #ffffff;
+  }
+}

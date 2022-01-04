@@ -1,0 +1,41 @@
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+// .footer__wrapper {}
+
+.footer__copyright {
+  margin-bottom: 10px;
+}
+
+// .footer__version {}
+
+.footer__link {
+  display: block;
+  text-align: center;
+  color: #ffffff;
+
+  transition: color 300ms linear;
+
+  &:hover,
+  &:focus {
+    color: #cccccc;
+  }
+}
+
+.footer__logo {
+  fill: currentColor;
+}
+
+.footer__title {
+  font-size: 25px;
+}
+
+// .footer__powered {}
+
+.footer__studios {
+  padding: 15px;
+  margin-left: 10px;
+  border: 1px solid #ffffff;
+}

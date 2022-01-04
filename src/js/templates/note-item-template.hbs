@@ -1,0 +1,26 @@
+<li class='notes__item'>
+  <ul class='notes__list'>
+    <li class='notes__element'>
+      <button class='notes__button notes__button--edit' data-id='{{id}}' type='button'>Edit</button>
+    </li>
+    <li class='notes__element'>
+      <button
+        class='notes__button notes__button--delete'
+        data-id='{{id}}'
+        type='button'
+      >Delete</button>
+    </li>
+  </ul>
+  <h3 class='notes__title'>{{title}}</h3>
+  <p class='notes__id' data-id='{{id}}'>ID: {{id}}</p>
+  <div
+    class='notes__square'
+    style='background-image: url({{imageURL}}); background-color: {{color}};'
+  ></div>
+  <p class='notes__text is-hidden'>{{text}}</p>
+  <div class='notes__line line'></div>
+  <div class='notes__wrapper'>
+    <p class='notes__author'>{{author}}</p>
+    <p class='notes__date'>{{date}}</p>
+  </div>
+</li>

@@ -1,0 +1,23 @@
+<div class='modal'>
+  <h2 class='modal__title'>Edit note "{{title}}"</h2>
+  <form class='add edit-form'>
+    <label class='add__label'>
+      Title
+      <input class='add__input' type='text' name='title' value='{{title}}' />
+    </label>
+    <span class='add__span'>ID: {{id}}</span>
+    <label class='add__label'>
+      Text
+      <textarea class='add__textarea' name='text'>{{text}}</textarea>
+    </label>
+    <label class='add__label'>
+      Author
+      <input class='add__input' type='text' name='author' value='{{author}}' />
+    </label>
+    <label class='add__label'>
+      Date
+      <input class='add__input' type='datetime-local' name='date' value='{{date}}' />
+    </label>
+    <button class='add__button' type='submit'>Edit note</button>
+  </form>
+</div>
